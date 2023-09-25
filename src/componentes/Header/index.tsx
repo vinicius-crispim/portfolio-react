@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import * as S from "./style";
-
+import linksAtivos from './data.json';
 
 export default function Header() {
     const [active, setActive] = useState(false);
-
+    const [links] = useState(linksAtivos);
     return (
         <S.HeaderStyled >
-            <h1><img src='/imagens/logo.png' alt="Foto cartoonizada do autor" /></h1>
+            <h1><a href="#"><img src='/imagens/Logo.png' alt="Foto cartoonizada do autor" /></a></h1>
             <div>
 
                 <button onClick={() => {
@@ -20,11 +20,9 @@ export default function Header() {
                 </button>
                 <nav className={`nav ${active ? 'nav-open' : 'nav-closed'}`}>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Sobre mim</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Contato</a></li>
+                        {links.map(link => 
+                            <li key={link.id}><a href="#">{link.titulo}</a></li>
+                        )}
                     </ul>
                 </nav>
             </div>
