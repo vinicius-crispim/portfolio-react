@@ -7,7 +7,17 @@ export default function Header() {
     const [links] = useState(linksAtivos);
     return (
         <S.HeaderStyled >
-            <h1><a href="#"><img src='/imagens/Logo.png' alt="Foto cartoonizada do autor" /></a></h1>
+            <S.TitleStyled>
+                <a href="#">
+                    <span>
+                        {'</'}
+                    </span>
+                    Vini_Dev
+                    <span>
+                        {'>'}
+                    </span>
+                </a>
+            </S.TitleStyled>
             <div>
 
                 <button onClick={() => {
