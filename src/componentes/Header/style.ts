@@ -6,6 +6,7 @@ export const HeaderStyled = styled.header`
   display: flex;
   position: fixed;
   top: 0;
+  z-index: 1;
   width:100%;
   background-color: ${variaveis.light_grey};
   justify-content: space-around;
