@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { variaveis } from "../../../styles/variaveis";
+import { variaveisColors } from "../../../styles/variaveis";
 import { device } from "../../../styles/breakpoints";
 
-export const FundoGradienteStyled = styled.div`
+export const FundoGradienteStyled = styled.section`
   background-image: url('/imagens/background.png');
   width: 100%;
   background-size:cover;
@@ -12,14 +12,13 @@ export const FundoGradienteStyled = styled.div`
   align-items: center;
 
   div{
-    line-height: 1.2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     max-width: 65%;
-    color: ${variaveis.white};
+    color: ${variaveisColors.white};
 
     svg{
       width: 6rem;
@@ -31,12 +30,12 @@ export const FundoGradienteStyled = styled.div`
       @keyframes scaleReact {
       from {
 		  			transform: scale(1);
-            fill: ${variaveis.light_green};
+            fill: ${variaveisColors.light_green};
 		  		}
 
 		  		to {
 		  			transform: scale(1.2);
-            fill: ${variaveis.dark_green};
+            fill: ${variaveisColors.dark_green};
 
 		  		}
       }
@@ -63,7 +62,7 @@ export const FundoGradienteStyled = styled.div`
     line-height: 1.2;
     text-align: center;
     max-width: 85%;
-    color: ${variaveis.white};
+    color: ${variaveisColors.white};
 
     svg{
       width: 6rem;
@@ -74,45 +73,25 @@ export const FundoGradienteStyled = styled.div`
   }
 
   }
-
-  
 `
 
-export const TitleStyled = styled.h2`
-  font-size: 3.5rem;
-  font-family: GandhiSansBold;
-  font-weight: 600;
-  @media ${device.mobile}{
-    font-size: 2.5rem;
-  }
-  
-`
-
-export const PStyled = styled.p`
-  font-size: 2rem;
-  padding: 1rem 0;
-
-  @media ${device.mobile}{
-    font-size: 1.25rem;
-
-  }
-`
-
-export const ButtonStyled = styled.button`
-  padding: .75rem 1rem;
-  border: 2px solid ${variaveis.dark};
+export const ButtonStyled = styled.a`
+  padding: 1rem;
+  border: 2px solid ${variaveisColors.dark};
   border-radius: 10px;
-  font-size: 1.5rem;
+  margin-top: 1rem;
   cursor: pointer;
-  text-align:center;
-  color: ${variaveis.dark};
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:${variaveis.dark_grey} ;
+  width: 50%;
+  color: ${variaveisColors.dark};
+  background-color:${variaveisColors.dark_grey};
+  transition: .3s;
+  font-family: GandhiSansBold;
+  box-shadow: 1px 3px 3px;
+  font-size:2rem;
   
   &:hover {
-    background-color: ${variaveis.light_grey};
+    background-color: ${variaveisColors.light_grey};
+    letter-spacing: 4px;
   }
 
   span{

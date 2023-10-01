@@ -1,10 +1,10 @@
 import styled from "styled-components"
-import { variaveis } from "../../styles/variaveis"
+import { variaveisColors } from "../../styles/variaveis"
 import { device } from "../../styles/breakpoints"
 
 export const FooterStyled = styled.footer`
   width: 100%;
-  background-color: ${variaveis.black};
+  background-color: ${variaveisColors.black};
   margin-top: 12px;
   padding: 1rem 1.5rem;
   display: flex;
@@ -13,7 +13,7 @@ export const FooterStyled = styled.footer`
   font-weight:600;
   justify-content: space-around;
   align-items: center;
-  color: ${variaveis.dark_cadet_gray};
+  color: ${variaveisColors.dark_cadet_gray};
 
   @media ${device.mobile}{
     flex-direction: column;
@@ -25,18 +25,18 @@ export const RedesSociaisStyled = styled.div`
   gap: 16px;
 
   svg {
-    fill: ${variaveis.dim_gray};
+    fill: ${variaveisColors.dim_gray};
     width: 3rem;
     height: 3rem;
     padding: 10px;
     cursor: pointer;
-    border: 2px solid ${variaveis.dim_gray};
+    border: 2px solid ${variaveisColors.dim_gray};
     border-radius: 10px;
   }
 
   svg:hover {
-    fill: ${variaveis.dark_grey};
-    border-color: ${variaveis.dark_grey}
+    fill: ${variaveisColors.dark_grey};
+    border-color: ${variaveisColors.dark_grey}
   }
 `
 

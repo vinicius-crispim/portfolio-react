@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { device } from '../../styles/breakpoints'
-import { variaveis } from "../../styles/variaveis";
+import { variaveisColors } from "../../styles/variaveis";
 
 export const HeaderStyled = styled.header`
   display: flex;
@@ -8,10 +8,10 @@ export const HeaderStyled = styled.header`
   top: 0;
   z-index: 1;
   width:100%;
-  background-color: ${variaveis.light_grey};
+  background-color: ${variaveisColors.light_grey};
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid ${variaveis.dark};
+  border-bottom: 1px solid ${variaveisColors.dark};
   button{
     display: none;
   }
@@ -32,13 +32,13 @@ export const HeaderStyled = styled.header`
     font-family: GandhiSansBold;
     font-weight: 600;
     transition: .3s;
-    color: ${variaveis.green};
+    color: ${variaveisColors.green};
   }
 
   nav li:hover {
-    color: ${variaveis.dark_green};
+    color: ${variaveisColors.dark_green};
     padding-bottom: 3px;
-    border-bottom: 2px solid ${variaveis.dark_green};
+    border-bottom: 2px solid ${variaveisColors.dark_green};
     font-size: 1.25rem;
   }
 
@@ -50,12 +50,12 @@ export const HeaderStyled = styled.header`
       right: 3rem;
       cursor: pointer;
       span{
-        color: ${variaveis.green};
+        color: ${variaveisColors.green};
         transition: .3s;
         font-size: 40px;
       }
       span:hover{
-        color: ${variaveis.dark_green};
+        color: ${variaveisColors.dark_green};
       }
     }
 
@@ -65,14 +65,14 @@ export const HeaderStyled = styled.header`
       width: 175px;
       max-width: 175px;
       right: 0;
-      background-color: ${variaveis.light_grey};
+      background-color: ${variaveisColors.light_grey};
       height: 200px;
       transition: 0.5s;
       padding: 0 12px;
       padding-top: 8px;
       display: flex;
       flex-direction: column;
-      border: 1px solid ${variaveis.dark};
+      border: 1px solid ${variaveisColors.dark};
       border-top: none;
     }
 
@@ -106,10 +106,10 @@ export const TitleStyled = styled.h1`
   font-size: 2rem;
   font-family: GandhiSansBold;
   font-weight: 600;
-  color: ${variaveis.green};
+  color: ${variaveisColors.green};
   transition: .3s;
   &:hover {
-    color: ${variaveis.dark_green}
+    color: ${variaveisColors.dark_green}
   }
 
   a{

@@ -1,4 +1,4 @@
-export const variaveis = {
+export const variaveisColors = {
 dark: '#000000',
 cadet_gray: '#8DA7BE',
 umber: "#803030",
@@ -9,8 +9,13 @@ white: '#fdfffc',
 dark_grey:' #92929d',
 orange: '#FF581D',
 black: '#18282b',
-light_grey: 'rgba(117, 117, 117, .8)',
+light_grey: 'rgba(117, 117, 117, .4)',
 green: '#355E3B',
 light_green: '#32943F',
 dark_green: '#006400',
 };
+
+export const variaveisSpace = {
+    container_horizontal_padding: '3.25rem',
+    container_vertical_padding: '3.5rem'
+}
