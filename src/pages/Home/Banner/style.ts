@@ -6,7 +6,7 @@ export const FundoGradienteStyled = styled.section`
   background-image: url('/imagens/background.png');
   width: 100%;
   background-size:cover;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

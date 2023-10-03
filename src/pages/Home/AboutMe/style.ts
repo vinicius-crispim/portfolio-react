@@ -9,6 +9,7 @@ export const AboutMeSectionStyle = styled.section`
     background-color:${variaveisColors.dark_cadet_gray};
     flex-direction: column;
     align-items:center;
+    justify-items: center;
     color: ${variaveisColors.white};
     padding: ${variaveisSpace.container_vertical_padding} ${variaveisSpace.container_horizontal_padding};
     h2{
