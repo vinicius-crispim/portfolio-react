@@ -6,7 +6,7 @@ export const FundoGradienteStyled = styled.section`
   background-image: url('/imagens/background.png');
   width: 100%;
   background-size:cover;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ export const FundoGradienteStyled = styled.section`
       height:  6rem;
       animation: scaleReact 3s alternate infinite ease-in;
       margin: 1rem;
-      margin-top: 3rem;
+      margin-top: 5rem;
 
       @keyframes scaleReact {
       from {
@@ -41,12 +41,12 @@ export const FundoGradienteStyled = styled.section`
       }
     }
   }
-
+  
   @media ${device.mobile}{
 
     div{
-    line-height: 1.1;
-    max-width: 85%;
+    line-height: 1;
+    max-width: 95%;
     svg{
       width: 4.5rem;
       height:  4.5rem;
@@ -59,7 +59,7 @@ export const FundoGradienteStyled = styled.section`
   @media ${device.desktopSM}{
 
     div{
-    line-height: 1.2;
+    line-height: 1.1;
     text-align: center;
     max-width: 85%;
     color: ${variaveisColors.white};
@@ -87,7 +87,7 @@ export const ButtonStyled = styled.a`
   transition: .3s;
   font-family: GandhiSansBold;
   box-shadow: 1px 3px 3px;
-  font-size:2rem;
+  font-size:1.75rem;
   
   &:hover {
     background-color: ${variaveisColors.light_grey};
@@ -99,6 +99,12 @@ export const ButtonStyled = styled.a`
   }
 
   @media ${device.desktopSM}{
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  @media ${device.mobile}{
+    span{
+      display: none;
+    }
   }
 `

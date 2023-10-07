@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 import GandhiSansRegular from './fontes/GandhiSans-Regular.otf';
 import GandhiSansBold from './fontes/GandhiSans-Bold.otf';
+import { variaveisColors } from "../../styles/variaveis";
 
 const EstilosGlobais = createGlobalStyle`
 @font-face {
@@ -20,6 +21,7 @@ html {
   body {
     margin: 0;
     min-height: 100vh;
+    color: ${variaveisColors.white};
   }
   main {
     display: block;

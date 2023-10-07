@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { variaveisColors, variaveisSpace } from "../..//../../styles/variaveis";
+import { device } from "../../../../styles/breakpoints";
 
 export const CarroselStyled = styled.section`
     padding: 0 !important;
-    background-color:${variaveisColors.columbia_blue} ;
     overflow: hidden;
     position: relative;
-    margin: 0 auto;
-    width: 50%;
+    margin: 2.5rem auto;
+    width: 250%;
     height: auto;
     .slider_content{
         width:1000%;
@@ -24,6 +24,7 @@ export const CarroselStyled = styled.section`
         height: auto;
         position: relative;
         text-align: center;
+        padding-bottom: 2.5rem;
     }
 
     .slide_box img{
@@ -52,7 +53,7 @@ export const CarroselStyled = styled.section`
     }
 
     .nav_manual .manual_btn:hover{
-        background-color:${variaveisColors.dark_cadet_gray};
+        background-color:${variaveisColors.columbia_blue};
     }
 
     #radio1:checked ~ .nav_auto .auto_btn1,
@@ -61,7 +62,7 @@ export const CarroselStyled = styled.section`
     #radio4:checked ~ .nav_auto .auto_btn4,
     #radio5:checked ~ .nav_auto .auto_btn5,
     #radio6:checked ~ .nav_auto .auto_btn6{
-        background-color:${variaveisColors.dark_cadet_gray}
+        background-color:${variaveisColors.columbia_blue}
     }
     #radio1:checked ~ .slide_1{
         margin-left: 0%;
@@ -80,5 +81,20 @@ export const CarroselStyled = styled.section`
     }
     #radio6:checked ~ .slide_1{
         margin-left: -50%;
+    }
+
+    @media ${device.desktopSM}{
+        width: 90%;
+        margin-top: 0;
+    }
+    @media ${device.mobile}{
+        width: 100%;
+        .nav_manual .manual_btn, .nav_auto div{
+            border: 1px solid ${variaveisColors.dark};
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: .3s;
+        }
     }
 `

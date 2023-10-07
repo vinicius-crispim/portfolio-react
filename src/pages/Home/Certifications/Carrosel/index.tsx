@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import * as S from './style';
 import { CarroselStyled } from './style';
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 
 var contador = 1;
 var radio2 = document.querySelector('.manual_btn');
 
 export default function Carrosel({ certificados }: { certificados: { id: number; name: string; path: string; }[] }) {
-    function passaImg(){
-        if(contador>5) contador=0;
+    function passaImg() {
+        if (contador > 5) contador = 0;
         contador++;
         console.log(contador)
         document.getElementById(`radio${contador}`).checked = true;
     }
-    useEffect(()=>{
+    useEffect(() => {
         setInterval(() => {
             passaImg();
         }, 5000);
-    },[])
+    }, [])
     return (
         <S.CarroselStyled>
             <div className="slider_content">
@@ -43,7 +43,11 @@ export default function Carrosel({ certificados }: { certificados: { id: number;
                 <div className="nav_manual">
                     {certificados.map(certificado => {
                         return (
-                            <label key={certificado.id} htmlFor={`radio${certificado.id}`} className="manual_btn" />
+                            <label onClick={() => {
+                                contador = certificado.id;
+                                console.log(contador)
+                                document.getElementById(`radio${contador}`).checked = true;
+                            }} key={certificado.id} htmlFor={`radio${certificado.id}`} className="manual_btn" />
                         )
                     })}
                 </div>

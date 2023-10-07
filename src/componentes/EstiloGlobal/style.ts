@@ -15,7 +15,7 @@ export const TitleStyled = styled.h2`
 export const PStyled = styled.p`
   font-size: 1.5rem;
   padding: 1rem 0;
-  line-height: 1.4;
+  line-height: 1.2;
 
   @media ${device.mobile}{
     font-size: 1.25rem;
