@@ -6,7 +6,7 @@ import { device } from "../../../styles/breakpoints";
 export const AboutMeSectionStyle = styled.section`
     text-align: justify;
     display: flex;
-    background-color:${variaveisColors.dark_cadet_gray};
+    background-color:${variaveisColors.dark_blue};
     flex-direction: column;
     align-items:center;
     justify-items: center;

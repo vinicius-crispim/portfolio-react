@@ -19,5 +19,5 @@ dark_green: '#006400',
 
 export const variaveisSpace = {
     container_horizontal_padding: '3.25rem',
-    container_vertical_padding: '3.5rem'
+    container_vertical_padding: '2.5rem'
 }

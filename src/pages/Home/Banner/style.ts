@@ -41,6 +41,9 @@ export const FundoGradienteStyled = styled.section`
       }
     }
   }
+  .main_info{
+    margin-bottom: 1rem;
+  }
   
   @media ${device.mobile}{
 
@@ -79,16 +82,18 @@ export const ButtonStyled = styled.a`
   padding: 1rem;
   border: 2px solid ${variaveisColors.dark};
   border-radius: 10px;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   cursor: pointer;
   width: 50%;
   color: ${variaveisColors.dark};
   background-color:${variaveisColors.dark_grey};
   transition: .3s;
   font-family: GandhiSansBold;
-  box-shadow: 1px 3px 3px;
+  box-shadow: 7px 5px 6px rgba(50, 50, 50, 0.77);
   font-size:1.75rem;
-  
+  display:flex;
+  align-items: center;
+  justify-content: center;
   &:hover {
     background-color: ${variaveisColors.light_grey};
     letter-spacing: 4px;
@@ -97,6 +102,8 @@ export const ButtonStyled = styled.a`
   span{
     margin-left: .5rem;
   }
+
+  
 
   @media ${device.desktopSM}{
     margin-bottom: 3rem;

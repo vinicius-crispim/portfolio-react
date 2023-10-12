@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Calculadora de Datas",
+        "description":"Calculadora que infoma a diferença entre a data inserida e a data atual, desenvolvida com JavaScript. Projeto autoral.",
+        "photo":"/imagens/projects/age-calculator.png",
+        "linkVercel":"https://age-calculator-tawny-six.vercel.app/",
+        "linkRepositorio":"https://github.com/vinicius-crispim/age-calculator"
+    },
+    {
+        "id":2,
+        "name": "Newsletter",
+        "description":"Newsletter desenvolvida utilizando somente HTML, CSS e JS. O software não é funcional, portanto não envia email de confirmação, porém tem validações. Projeto autoral.",
+        "photo":"/imagens/projects/Newsletter.png",
+        "linkVercel":"https://newsletter-challenge.vercel.app/",
+        "linkRepositorio":"https://github.com/vinicius-crispim/newsletter-challenge"
+    },
+    {
+        "id":3,
+        "name":"Meteora",
+        "description":"Uma loja de moda desenvolvida com Bootstrap. Projeto desenvolvido durante curso da Alura, no Github tem mais projetos desenvolvidos em cursos da Alura.",
+        "photo":"/imagens/projects/meteora.png",
+        "linkVercel":"https://meteora-umber.vercel.app/",
+        "linkRepositorio":"https://github.com/vinicius-crispim/meteora"
+    }
+]

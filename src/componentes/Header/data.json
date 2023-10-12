@@ -9,14 +9,18 @@
         },
     {
             "id": 2,
-            "titulo": "Projetos"
+            "titulo": "Certificações"
         },
     {
             "id": 3,
-            "titulo": "Habilidades"
+            "titulo": "Projetos"
         },
     {
             "id": 4,
+            "titulo": "Habilidades"
+        },
+    {
+            "id": 5,
             "titulo": "Contato"
         }
 ]

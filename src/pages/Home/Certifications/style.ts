@@ -4,7 +4,7 @@ import { device } from "../../../styles/breakpoints";
 
 
 export const CertificationsStyled = styled.section`
-    background-color:${variaveisColors.dark_blue} ;
+    background-color:${variaveisColors.columbia_blue_dark};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,9 +32,6 @@ export const CertificationsStyled = styled.section`
         }   
     }
 
-    @media ${device.desktopXSM}{
-        
-    }
 
     .teste{
         display: flex;

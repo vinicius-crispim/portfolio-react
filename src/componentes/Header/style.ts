@@ -42,7 +42,7 @@ export const HeaderStyled = styled.header`
     font-size: 1.25rem;
   }
 
-  @media ${device.mobile}{
+  @media ${device.desktopXSM}{
     button{
       display: block;
       position: fixed;
@@ -66,7 +66,7 @@ export const HeaderStyled = styled.header`
       max-width: 175px;
       right: 0;
       background-color: ${variaveisColors.light_grey};
-      height: 200px;
+      height: 225px;
       transition: 0.5s;
       padding: 0 12px;
       padding-top: 8px;

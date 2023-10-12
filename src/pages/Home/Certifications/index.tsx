@@ -3,12 +3,13 @@ import * as SGlobal from '../../../componentes/EstiloGlobal/style';
 import certificados from './data.json';
 import Carrosel from "./Carrosel";
 import * as S from './style'
+import Title from "../../../componentes/Title";
 export default function Certifications() {
     return (
         <S.CertificationsStyled>
-            <SGlobal.TitleStyled>
+            <Title>
                 Certificações
-            </SGlobal.TitleStyled>
+            </Title>
             <div className='teste'>
                 <div>
                     <SGlobal.PStyled>

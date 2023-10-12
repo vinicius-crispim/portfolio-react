@@ -2,14 +2,15 @@ import React from "react";
 import * as S from './style';
 import * as SGlobal from '../../../componentes/EstiloGlobal/style'
 import perfil from "../../../assets/perfil.png";
+import Title from "../../../componentes/Title";
 
 const teste = '../'
 export default function AboutMe() {
     return (
         <S.AboutMeSectionStyle>
-            <SGlobal.TitleStyled>
+            <Title>
                 Sobre Mim
-            </SGlobal.TitleStyled>
+            </Title>
             <S.AboutMeContainer>
                 <div>
                     <SGlobal.PStyled>
