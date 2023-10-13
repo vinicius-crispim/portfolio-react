@@ -22,5 +22,13 @@
         "photo":"/imagens/projects/meteora.png",
         "linkVercel":"https://meteora-umber.vercel.app/",
         "linkRepositorio":"https://github.com/vinicius-crispim/meteora"
+    },
+    {
+        "id":4,
+        "name":"Restaurante",
+        "description":"Projeto fictício para um restaurante, em desenvolvimento. Projeto autoral. ",
+        "photo":"/imagens/projects/em-breve.png",
+        "linkVercel":"#",
+        "linkRepositorio":"#"
     }
 ]

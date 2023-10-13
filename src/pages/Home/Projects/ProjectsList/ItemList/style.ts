@@ -8,14 +8,13 @@ export const ItemStyled = styled.li`
         width: 350px;
         color: ${variaveisColors.white};
         height: 40%;
-        background-color: ${variaveisColors.dark_cadet_gray};
+        background-color: ${variaveisColors.black};
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         transition: .5s;
-
         h3{
-            padding-top: 16px;
             padding-bottom: 8px;
             font-size:1.5rem;
             font-weight: 600;
@@ -50,12 +49,19 @@ export const ItemStyled = styled.li`
     .isNotOver{
         top: -300px;
     }
+
+    @media ${device.mobile}{
+        div{
+            width: 250px;
+            height: 55%;
+        }
+    }
 `
 
 export const ItemFigureStyled = styled.figure`
     width: 100%;
     height: 100%;
-    margin: 32px 8px; 
+    margin: 20px 0; 
     position: relative;
     img{
         border-radius:10px;
@@ -67,8 +73,8 @@ export const ItemFigureStyled = styled.figure`
 
     @media ${device.mobile}{
         img{
-            width:160px;
-            height:160px;
+            width:250px;
+            height:250px;
         }
     }
 

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { variaveisColors, variaveisSpace } from "../../../styles/variaveis";
+import { device } from "../../../styles/breakpoints";
 
 
 export const ProjectsStyled = styled.section`
-    background-color: ${variaveisColors.light_grey};
+    background-color: ${variaveisColors.darkest_grey};
     padding: ${variaveisSpace.container_vertical_padding} ${variaveisSpace.container_horizontal_padding};
     display: flex;
     flex-direction: column;
@@ -11,8 +12,16 @@ export const ProjectsStyled = styled.section`
     align-items: center;
 
     div{
-        width: 80%;
+        text-align: center;
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        width: 100%
+    }
 
+    @media ${device.mobile}{
+        div{
+            padding: 1rem 0;
+        }
     }
 `
 
