@@ -9,8 +9,8 @@ export default function Home() {
         <>
             <Banner />
             <AboutMe />
-            <Certifications/>
             <Projects/>
+            <Certifications/>
         </>
     )
 }
