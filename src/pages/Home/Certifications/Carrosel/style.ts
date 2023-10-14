@@ -9,6 +9,7 @@ export const CarroselStyled = styled.section`
     margin: 2.5rem auto;
     width: 250%;
     height: auto;
+    filter: drop-shadow(2px 2px 4px ${variaveisColors.black});
     .slider_content{
         width:1000%;
         height: auto;
@@ -20,7 +21,7 @@ export const CarroselStyled = styled.section`
     }
 
     .slide_box{
-        width: 10%;
+        max-width: 10%;
         height: auto;
         position: relative;
         text-align: center;

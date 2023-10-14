@@ -41,8 +41,3 @@ export const ListStyled = styled.ul`
 
     }
 `
-
-export const Container = styled.div`
-    
-    
-`

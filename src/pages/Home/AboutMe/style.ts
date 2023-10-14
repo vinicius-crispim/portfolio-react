@@ -12,9 +12,6 @@ export const AboutMeSectionStyle = styled.section`
     justify-items: center;
     color: ${variaveisColors.white};
     padding: ${variaveisSpace.container_vertical_padding} ${variaveisSpace.container_horizontal_padding};
-    h2{
-        text-align: center;
-    }
 
     span{
         font-weight: 600;
@@ -31,7 +28,8 @@ export const AboutMeContainer = styled.div`
     justify-items: center;
     grid-template-columns: 1fr auto;
     gap:2rem;
-    width:90%;
+    padding: 0 2rem;
+    width:100%;
     img{
         width: 22rem;
         height: 22rem;

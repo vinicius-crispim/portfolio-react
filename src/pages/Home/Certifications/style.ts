@@ -27,23 +27,22 @@ export const CertificationsStyled = styled.section`
         p{
             line-height: 1.2;
             margin-bottom: 1.25rem;
-            padding-left: 0;
-
+            padding: 1rem 0;
+            width: 100%;
         }   
     }
+`
 
-
-    .teste{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-right: 3rem;
-        padding-left: 1rem;
-
-        @media ${device.desktopSM}{
-            padding-right:0 ;
-            padding-left: 0;
-            flex-direction: column;
-        }
+export const ContainerCarrosselStyled = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    
+    @media ${device.desktopSM}{
+        padding-right:0 ;
+        padding-left: 0;
+        flex-direction: column;
     }
 `

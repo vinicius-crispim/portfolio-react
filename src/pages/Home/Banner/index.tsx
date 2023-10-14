@@ -1,6 +1,5 @@
 import React from 'react';
 import * as S from './style'
-import * as SGlobal from '../../../componentes/EstiloGlobal/style';
 import Title from '../../../componentes/Title';
 
 

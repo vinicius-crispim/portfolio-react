@@ -10,7 +10,7 @@ export default function Certifications() {
             <Title>
                 Certificações
             </Title>
-            <div className='teste'>
+            <S.ContainerCarrosselStyled>
                 <div>
                     <SGlobal.PStyled>
                         Ao longo dos anos, busquei e busco constantemente o aprimoramento pessoal e
@@ -20,7 +20,7 @@ export default function Certifications() {
                     </SGlobal.PStyled>
                 </div>
                 <Carrosel certificados={certificados} />
-            </div>
+            </S.ContainerCarrosselStyled>
         </S.CertificationsStyled>
     )
 }

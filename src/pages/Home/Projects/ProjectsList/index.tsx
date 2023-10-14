@@ -4,12 +4,12 @@ import ItemList from './ItemList';
 import projetos from './/data.json';
 export default function ProjectsList() {
     return (
-        <S.Container>
+        <div>
             <S.ListStyled>
                 {projetos.map(projeto =>
                     <ItemList key={projeto.id} projeto={projeto} />
                 )}
             </S.ListStyled>
-        </S.Container>
+        </div>
     )
 }

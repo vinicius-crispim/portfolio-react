@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"HTML",
+        "photo":"/imagens/skills/html-5.svg",
+        "description":"HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar páginas da web, permitindo a estruturação e organização do conteúdo por meio de elementos e tags HTML, como parágrafos e links, sendo a base para a construção de sites na internet."
+    },
+    {
+        "id":2,
+        "name":"CSS",
+        "photo":"/imagens/skills/css-3.svg",
+        "description":"CSS (Cascading Style Sheets) é uma linguagem de estilo usada para controlar a apresentação e o layout de páginas da web, permitindo a definição de cores, fontes, espaçamentos e outros aspectos visuais, separando assim o design do conteúdo HTML e melhorando a estilização e o design de sites."
+    },
+    {
+        "id":3,
+        "name":"Javascript",
+        "photo":"/imagens/skills/javascript.svg",
+        "description":"JavaScript é uma linguagem de programação muito utilizada na web para adicionar interatividade e funcionalidades dinâmicas às páginas da internet. Ela permite a criação de elementos como animações, validações de formulários e atualizações em tempo real, tornando as páginas da web melhores e mais funcionais."
+    },
+    {
+        "id":4,
+        "name":"React",
+        "photo":"/imagens/skills/react.svg",
+        "description":"React é uma biblioteca JavaScript de código aberto que simplifica o processo de construção de componentes de interface de usuário reutilizáveis, tornando-o especialmente eficaz para o desenvolvimento de aplicativos web de página única (SPA) e aplicativos móveis."
+    }
+]

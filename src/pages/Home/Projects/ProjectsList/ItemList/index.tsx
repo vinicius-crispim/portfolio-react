@@ -6,7 +6,6 @@ export default function ItemList({projeto} : {projeto:{id:number, name: string, 
     return (
         <S.ItemStyled onMouseOver={() => {
         setActive(true);
-        console.log(projeto)
     }} onMouseOut={() => {
         setActive(false);
     }}>
