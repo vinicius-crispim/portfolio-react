@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const SkillStyled = styled.li`
     display: flex;
     align-items: center;
-    flex-direction: ${(props) => props.direction};
+    flex-direction: ${props => props.$direction};
     justify-content: center;
     gap: 12px;
     

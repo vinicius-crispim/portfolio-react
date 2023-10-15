@@ -6,7 +6,7 @@ import Title from '../../../../componentes/Title';
 export default function ItemSkills({ name, photo, description, direction }: 
     { name: string, photo: string, description: string, direction: string }) {
     return (
-        <S.SkillStyled direction={direction}>
+        <S.SkillStyled $direction={direction}>
             <div>
                 <Title size='2rem'>
                     {name}
