@@ -5,7 +5,6 @@ import { device } from "../../styles/breakpoints"
 export const FooterStyled = styled.footer`
   width: 100%;
   background-color: ${variaveisColors.black};
-  margin-top: 12px;
   padding: 1rem 1.5rem;
   display: flex;
   gap: 12px;
