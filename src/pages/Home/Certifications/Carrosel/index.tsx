@@ -10,7 +10,6 @@ export default function Carrosel({ certificados }: { certificados: { id: number;
     function passaImg() {
         if (contador > 5) contador = 0;
         contador++;
-        console.log(contador)
         document.getElementById(`radio${contador}`).checked = true;
     }
     useEffect(() => {
@@ -45,7 +44,6 @@ export default function Carrosel({ certificados }: { certificados: { id: number;
                         return (
                             <label onClick={() => {
                                 contador = certificado.id;
-                                console.log(contador)
                                 document.getElementById(`radio${contador}`).checked = true;
                             }} key={certificado.id} htmlFor={`radio${certificado.id}`} className="manual_btn" />
                         )

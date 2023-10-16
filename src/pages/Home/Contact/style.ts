@@ -64,4 +64,9 @@ export const AllertContainerStyle = styled.div`
     width: 350px;
     background-color: ${variaveisColors.black};
     display:block;
+
+    @media ${device.mobile}{
+        width: auto;
+        margin: 0 2rem;
+    }
 `

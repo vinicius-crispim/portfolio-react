@@ -14,7 +14,6 @@ export default function Contact() {
             e.target,
             import.meta.env.VITE_REACT_PUBLIC_KEY)
             .then(result => {
-                console.log(result.text)
                 setDisplay(true);
                 setTimeout(() => {
                     setDisplay(false);

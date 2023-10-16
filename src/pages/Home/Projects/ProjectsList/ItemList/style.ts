@@ -23,7 +23,7 @@ export const ItemStyled = styled.li`
         a, p{
             padding: 4px 8px;
             font-size: .8rem;
-            text-align: center;
+            text-align: justify;
         }
         
         a{

@@ -21,7 +21,6 @@ export default function Header() {
             <div>
 
                 <button onClick={() => {
-                    console.log(active)
                     setActive(!active)}}>
                     
                     <span className="material-symbols-outlined">
