@@ -7,7 +7,7 @@ import { PStyled } from '../../../componentes/EstiloGlobal/style';
 
 export default function Projects(){
     return(
-        <S.ProjectsStyled>
+        <S.ProjectsStyled id='projetos'>
             <Title>
                 Projetos
             </Title>

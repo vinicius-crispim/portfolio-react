@@ -1,26 +1,32 @@
 [
     {
-            "id": 0,
-            "titulo": "Início"
-            },
+        "id": 0,
+        "titulo": "Início",
+        "sectioLink":"inicio"
+    },
     {
-            "id": 1,
-            "titulo": "Sobre mim"
-        },
+        "id": 1,
+        "titulo": "Sobre mim",
+        "sectioLink":"sobre-mim"
+    },
     {
-            "id": 2,
-            "titulo": "Certificações"
-        },
+        "id": 2,
+        "titulo": "Projetos",
+        "sectioLink":"projetos"
+    },
     {
-            "id": 3,
-            "titulo": "Projetos"
-        },
+        "id": 3,
+        "titulo": "Habilidades",
+        "sectioLink":"habilidades"
+    },
     {
-            "id": 4,
-            "titulo": "Habilidades"
-        },
+        "id": 4,
+        "titulo": "Certificações",
+        "sectioLink":"certificacoes"
+    },
     {
-            "id": 5,
-            "titulo": "Contato"
-        }
+        "id": 5,
+        "titulo": "Contato",
+        "sectioLink":"contato"
+    }
 ]

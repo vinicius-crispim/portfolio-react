@@ -7,7 +7,7 @@ import ItemSkills from './ItemSkills';
 
 export default function Skills() {
     return (
-        <S.SkillsSectionStyled>
+        <S.SkillsSectionStyled id='habilidades'>
             <Title>
                 Habilidades
             </Title>

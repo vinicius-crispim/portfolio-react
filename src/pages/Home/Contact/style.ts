@@ -5,7 +5,16 @@ import { device } from '../../../styles/breakpoints';
 export const ContactStyled = styled.section`
     padding: ${variaveisSpace.container_vertical_padding} ${variaveisSpace.container_horizontal_padding};
     background-color: ${variaveisColors.white_black};
-    `
+    .isOpen{
+        right: 0;
+        left: 0;
+        top: 40%;
+    }
+
+    .isClosed{
+        top: -50%;
+    }
+`
 
 export const ContactFormStyled = styled.form`
     display: flex;
@@ -44,4 +53,15 @@ export const ContactButtonStyled = styled.button`
         background-color: ${variaveisColors.darkest_grey};
         letter-spacing: 6px;
     }
+`
+export const AllertContainerStyle = styled.div`
+    position: fixed;
+    transition: .5s;
+    right: 0;
+    border-radius: 10px;
+    left: 0;
+    margin: 0 auto;
+    width: 350px;
+    background-color: ${variaveisColors.black};
+    display:block;
 `

@@ -6,7 +6,7 @@ import * as S from './style'
 import Title from "../../../componentes/Title";
 export default function Certifications() {
     return (
-        <S.CertificationsStyled>
+        <S.CertificationsStyled id='certificacoes'>
             <Title>
                 Certificações
             </Title>

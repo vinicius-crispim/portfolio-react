@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <S.HeaderStyled >
             <S.TitleStyled>
-                <a href="#">
+                <a href="#inicio">
                     <span>
                         {'</'}
                     </span>
@@ -31,7 +31,7 @@ export default function Header() {
                 <nav className={`nav ${active ? 'nav-open' : 'nav-closed'}`}>
                     <ul>
                         {links.map(link => 
-                            <li key={link.id}><a href="#">{link.titulo}</a></li>
+                            <li key={link.id}><a href={`#${link.sectioLink}`}>{link.titulo}</a></li>
                         )}
                     </ul>
                 </nav>

@@ -7,7 +7,7 @@ import Title from "../../../componentes/Title";
 const teste = '../'
 export default function AboutMe() {
     return (
-        <S.AboutMeSectionStyle>
+        <S.AboutMeSectionStyle id='sobre-mim'>
             <Title>
                 Sobre Mim
             </Title>
