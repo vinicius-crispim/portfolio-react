@@ -21,7 +21,7 @@ export default function Banner() {
                     atualmente, busco ingressar na área de desenvolvimento, que
                     sempre foi o meu objetivo, e adquirir experiência.
                 </Title>
-                <S.ButtonStyled> <p>Contato</p> <span className="material-symbols-outlined">
+                <S.ButtonStyled href='#contato'> <p>Contato</p> <span className="material-symbols-outlined">
                     north_east
                 </span></S.ButtonStyled>
             </div>

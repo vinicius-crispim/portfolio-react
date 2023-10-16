@@ -9,10 +9,10 @@ export default function Contact() {
     const [display, setDisplay] = useState(false);
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(process.env.VITE_REACT_SERVICE_ID,
-            process.env.VITE_REACT_TEMPLATE_ID,
+        emailjs.sendForm(import.meta.env.VITE_REACT_SERVICE_ID,
+            import.meta.env.VITE_REACT_TEMPLATE_ID,
             e.target,
-            process.env.VITE_REACT_PUBLIC_KEY)
+            import.meta.env.VITE_REACT_PUBLIC_KEY)
             .then(result => {
                 setDisplay(true);
                 setTimeout(() => {
@@ -23,9 +23,9 @@ export default function Contact() {
                 console.log(error)
             })
         document.querySelector(".form")?.reset();
-        document.querySelector("#name_from")!!.value = "";
-        document.querySelector("#email_from")!!.value = "";
-        document.querySelector("#message")!!.value = "";
+        document.querySelector("#name_from").value = "";
+        document.querySelector("#email_from").value = "";
+        document.querySelector("#message").value = "";
     }
     return (
         <ContactStyled id='contato'>
