@@ -27,9 +27,15 @@ export const CertificationsStyled = styled.section`
         p{
             line-height: 1.2;
             margin-bottom: 1.25rem;
-            padding: 1rem 0;
+            padding: 1rem 2rem;
             width: 100%;
         }   
+    }
+
+    @media ${device.mobile}{
+        p{
+            padding: 1rem 0;
+        }
     }
 `
 

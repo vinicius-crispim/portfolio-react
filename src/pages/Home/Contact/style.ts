@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { variaveisColors, variaveisSpace } from "../../../styles/variaveis";
-
+import { device } from '../../../styles/breakpoints';
 
 export const ContactStyled = styled.section`
     padding: ${variaveisSpace.container_vertical_padding} ${variaveisSpace.container_horizontal_padding};
@@ -22,6 +22,10 @@ export const ContactFormStyled = styled.form`
         width: 100%;
         background-color: ${variaveisColors.form_grey};
         color: ${variaveisColors.dark};
+    }
+
+    @media ${device.desktopXSM}{
+        width: 100%;
     }
 `
 

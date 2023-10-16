@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { variaveisColors, variaveisSpace } from "../../../styles/variaveis";
+import { variaveisSpace } from "../../../styles/variaveis";
 import { device } from "../../../styles/breakpoints";
 
 
@@ -13,7 +13,7 @@ export const SkillsSectionStyled = styled.section`
 
     @media ${device.mobile}{
         p{
-            padding: 1.5rem 0;
+            padding: 1rem 0 0;
         }
     }
 `
@@ -31,5 +31,7 @@ export const SkillsList = styled.ul`
     width: 80%;
     margin: 0 auto;
 
-    
+    @media ${device.mobile}{
+        width: 100%;
+    }
 `

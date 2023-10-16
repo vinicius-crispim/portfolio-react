@@ -8,7 +8,7 @@ export const PStyled = styled.p`
   line-height: 1.2;
   text-align: justify;
   @media ${device.mobile}{
-    font-size: 1.25rem;
+    font-size: 1rem;
 
   }
 `

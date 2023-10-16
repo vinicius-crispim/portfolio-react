@@ -12,7 +12,7 @@ export const AboutMeSectionStyle = styled.section`
     justify-items: center;
     color: ${variaveisColors.white};
     padding: ${variaveisSpace.container_vertical_padding} ${variaveisSpace.container_horizontal_padding};
-
+    
     span{
         font-weight: 600;
     }
@@ -51,9 +51,10 @@ export const AboutMeContainer = styled.div`
     
     @media ${device.mobile}{
         width:100%;
-       img{
-        width: 70%;
-        height: 70%;
+        padding: .25rem 0;
+        img{
+        width: 80%;
+        height: 80%;
        }
     }
 `

@@ -85,14 +85,14 @@ export const CarroselStyled = styled.section`
     }
 
     @media ${device.desktopSM}{
-        width: 90%;
+        width: 75%;
         margin-top: 0;
     }
     @media ${device.mobile}{
         width: 100%;
         .nav_manual .manual_btn, .nav_auto div{
             border: 1px solid ${variaveisColors.dark};
-            padding: 10px;
+            padding: 9px;
             border-radius: 50%;
             cursor: pointer;
             transition: .3s;

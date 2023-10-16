@@ -49,7 +49,7 @@ export const FundoGradienteStyled = styled.section`
 
     div{
     line-height: 1;
-    max-width: 95%;
+    padding: 0 2rem;
     svg{
       width: 4.5rem;
       height:  4.5rem;
@@ -84,7 +84,7 @@ export const ButtonStyled = styled.a`
   border-radius: 10px;
   margin-top: 2.5rem;
   cursor: pointer;
-  width: 50%;
+  width: 70%;
   color: ${variaveisColors.dark};
   background-color:${variaveisColors.dark_grey};
   transition: .3s;
@@ -113,5 +113,6 @@ export const ButtonStyled = styled.a`
     span{
       display: none;
     }
+    font-size: 1.25rem;
   }
 `

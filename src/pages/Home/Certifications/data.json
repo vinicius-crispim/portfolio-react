@@ -2,31 +2,31 @@
     {
         "id":1,
         "name":"Diploma",
-        "path":"/imagens/certificacoes/Diploma.jpg"
+        "path":"/imagens/certifications/Diploma.jpg"
     },
     {
         "id":2,
         "name":"Curso de Java",
-        "path":"/imagens//certificacoes/Certificado Java UDEMY.jpg"
+        "path":"/imagens/certifications/Certificado Java UDEMY.jpg"
     },
     {
         "id":3,
         "name":"Formação HTML e CSS",
-        "path":"/imagens/certificacoes/HTML e CSS em projetos Web - Alura.jpg"
+        "path":"/imagens/certifications/HTML e CSS em projetos Web - Alura.jpg"
     },
     {
         "id":4,
         "name":"ReactJS",
-        "path":"/imagens/certificacoes/Curso React_ desenvolvendo com JavaScript - Alura.jpg"
+        "path":"/imagens/certifications/Curso React_ desenvolvendo com JavaScript - Alura.jpg"
     },
     {
         "id":5,
         "name":"React com Typescript",
-        "path":"/imagens/certificacoes/Curso React_ escrevendo com Typescript - Alura.jpg"
+        "path":"/imagens/certifications/Curso React_ escrevendo com Typescript - Alura.jpg"
     },
     {
         "id":6,
         "name":"React Native",
-        "path":"/imagens/certificacoes/Curso React Native_ Construindo um App com Native-base - Alura.jpg"
+        "path":"/imagens/certifications/Curso React Native_ Construindo um App com Native-base - Alura.jpg"
     }
 ]

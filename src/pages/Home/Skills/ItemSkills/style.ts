@@ -20,4 +20,11 @@ export const SkillStyled = styled.li`
         flex-direction: column-reverse;
         padding: .5rem 0;
     }
+
+    @media ${device.mobile}{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
 `

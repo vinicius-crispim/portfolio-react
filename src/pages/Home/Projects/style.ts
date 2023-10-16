@@ -19,8 +19,9 @@ export const ProjectsStyled = styled.section`
     }
 
     @media ${device.mobile}{
+        font-size: 1rem;
         div{
-            padding: 1rem 0;
+            padding: 0 0;
         }
     }
 `

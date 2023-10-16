@@ -7,6 +7,6 @@ export const TitleStyled = styled.h2`
   font-family: ${props => props.$bold == true ? 'GandhiSansBold' : 'GandhiSans'};
   font-weight: ${props => props.$bold == true ? '600' : '400'};
   @media ${device.mobile}{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 `
