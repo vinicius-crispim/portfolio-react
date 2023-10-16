@@ -6,14 +6,17 @@ import emailjs from '@emailjs/browser';
 export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(e.target)
-        emailjs.sendForm('service_6gu0kys', 'template_8ees1e4', e.target, '9INQDLzkmzDiXn4wc')
-        .then(result => {
-            console.log(result.text)
-        })
-        .catch(error => {
-            console.log(error)
-        })
+        emailjs.sendForm(import.meta.env.VITE_REACT_SERVICE_ID,
+            import.meta.env.VITE_REACT_TEMPLATE_ID,
+            e.target,
+            import.meta.env.VITE_REACT_PUBLIC_KEY)
+            .then(result => {
+                console.log(result.text)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+        document.querySelector(".form")?.reset();
     }
     return (
         <ContactStyled>
@@ -21,7 +24,7 @@ export default function Contact() {
                 Entre em contato!
             </Title>
             <div>
-                <ContactFormStyled onSubmit={sendEmail}>
+                <ContactFormStyled onSubmit={sendEmail} className="form">
                     <input type='text' id='name_from' name="name_from" placeholder="Nome" />
                     <input type='email' id='email_from' name="email_from" placeholder="Email" />
                     <textarea cols={45} rows={10} placeholder="Mensagem" id="message" name="message"></textarea>
