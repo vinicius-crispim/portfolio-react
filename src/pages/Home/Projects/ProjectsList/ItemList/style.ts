@@ -2,12 +2,13 @@ import styled from "styled-components";
 import { device } from "../../../../../styles/breakpoints";
 import { variaveisColors } from '../../../../../styles/variaveis';
 export const ItemStyled = styled.li`
+    margin-bottom: 24px;
 
     div{
         position: absolute;
         width: 350px;
         color: ${variaveisColors.white};
-        height: 40%;
+        height: 50%;
         background-color: ${variaveisColors.black};
         display: flex;
         flex-direction: column;
@@ -35,19 +36,17 @@ export const ItemStyled = styled.li`
         a:hover{
             text-decoration: underline;
         }
-    
-        a{
-        }
         border-top-left-radius:10px;
         border-top-right-radius:10px;
+    
     }
-
+    
     .isOver{
         top: 0;
     }
 
     .isNotOver{
-        top: -300px;
+        top: -200px;
     }
 
     @media ${device.mobile}{
@@ -61,7 +60,7 @@ export const ItemStyled = styled.li`
 export const ItemFigureStyled = styled.figure`
     width: 100%;
     height: 100%;
-    margin: 20px 0; 
+    margin: 0; 
     position: relative;
     img{
         border-radius:10px;

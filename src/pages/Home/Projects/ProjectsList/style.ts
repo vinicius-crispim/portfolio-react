@@ -5,7 +5,7 @@ import { device } from "../../../../styles/breakpoints";
 export const ListStyled = styled.ul`
     display: flex;
     flex-wrap: nowrap;
-    gap: 12px;
+    gap: 28px;
     overflow-y: hidden;
     overflow-x: scroll;
     width:100%;
@@ -33,9 +33,7 @@ export const ListStyled = styled.ul`
     &::-webkit-scrollbar-thumb:hover {
         background-color: ${variaveisColors.dark_cadet_gray};
     }
-    li:not(:first-child){
-      margin: 0 8px; 
-    }
+    
     @media ${device.mobile} {
       padding: 0 0;
 
